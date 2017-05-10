@@ -11,13 +11,12 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.USER_LIBRARY/NATTABLE_LIB">
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/nattable">
 		<accessrules>
 			<accessrule kind="accessible" pattern="*.jar"/>
 		</accessrules>
 	</classpathentry>
 	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/de.sfk.spicycurry.backend"/>
-	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/swt-4.6.3-win32-win32-x86_64"/>
 	<classpathentry exported="true" kind="lib" path="swing2swt.jar"/>
 	<classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
 	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
@@ -25,13 +24,6 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="D:/Programme/eclipse/plugins/org.eclipse.jface.databinding_1.8.1.v20161026-1531.jar"/>
-	<classpathentry kind="lib" path="D:/Programme/eclipse/plugins/org.eclipse.jface.source_3.12.2.v20170113-2113.jar"/>
-	<classpathentry kind="lib" path="D:/Programme/eclipse/plugins/org.eclipse.jface.text.source_3.11.2.v20170220-1911.jar"/>
-	<classpathentry kind="lib" path="D:/Programme/eclipse/plugins/org.eclipse.jface.text_3.11.2.v20170220-1911.jar"/>
-	<classpathentry kind="lib" path="D:/Programme/eclipse/plugins/org.eclipse.jface_3.12.2.v20170113-2113.jar"/>
-	<classpathentry kind="lib" path="D:/Programme/eclipse/plugins/org.eclipse.core.commands_3.8.1.v20161221-1651.jar"/>
-	<classpathentry kind="lib" path="D:/Programme/eclipse/plugins/org.eclipse.e4.core.commands_0.11.100.v20160506-0804.jar"/>
-	<classpathentry kind="lib" path="D:/Programme/eclipse/plugins/org.eclipse.equinox.p2.tests_1.6.200.v20161124-1529/testData/artifactRepo/corruptedJarRepo/plugins/org.eclipse.equinox.common_3.5.0.corrupted.jar"/>
+	<classpathentry kind="lib" path="lib/swt.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
