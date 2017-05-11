@@ -60,6 +60,105 @@
 	    <groupId>org.eclipse</groupId>
 	    <artifactId>jface</artifactId>
 	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.eclipse.core/org.eclipse.core.runtime -->
+	<dependency>
+    	<groupId>org.eclipse.core</groupId>
+    	<artifactId>org.eclipse.core.runtime</artifactId>
+	</dependency>
+	<dependency>
+		<groupId>ca.odell</groupId>
+		<artifactId>ca.odell.glazedlists</artifactId>
+		<scope>system</scope>
+    	<systemPath>${project.basedir}/lib/nattable/ca.odell.glazedlists_1.9.0.v201303080712.jar</systemPath>
+	</dependency>
+	<dependency>
+		<groupId>org.eclipse.nebula</groupId>
+		<artifactId>org.eclipse.nebula.cwt</artifactId>
+		<scope>system</scope>
+    	<systemPath>${project.basedir}/lib/nattable/org.eclipse.nebula.cwt_1.0.0.201703081533.jar</systemPath>
+	</dependency>
+	<dependency>
+		<groupId>org.eclipse.nebula.widgets.nattable</groupId>
+		<artifactId>org.eclipse.nebula.widgets.nattable.core</artifactId>
+		<scope>system</scope>
+    	<systemPath>${project.basedir}/lib/nattable/org.eclipse.nebula.widgets.nattable.core_1.5.0.201703192131.jar</systemPath>
+	</dependency>
+	<dependency>
+		<groupId>org.eclipse.nebula.widgets.nattable.extension</groupId>
+		<artifactId>org.eclipse.nebula.widgets.nattable.core.extension.e4</artifactId>
+		<scope>system</scope>
+    	<systemPath>${project.basedir}/lib/nattable/org.eclipse.nebula.widgets.nattable.extension.e4_1.1.0.201703192131.jar</systemPath>
+	</dependency>
+	<dependency>
+		<groupId>org.eclipse.nebula.widgets.nattable.extension</groupId>
+		<artifactId>org.eclipse.nebula.widgets.nattable.core.extension.glazedlits</artifactId>
+		<scope>system</scope>
+    	<systemPath>${project.basedir}/lib/nattable/org.eclipse.nebula.widgets.nattable.extension.glazedlists_1.5.0.201703192131.jar</systemPath>
+	</dependency>
+	<dependency>
+		<groupId>org.eclipse.nebula.widgets.nattable.extension</groupId>
+		<artifactId>org.eclipse.nebula.widgets.nattable.core.extension.nebula</artifactId>
+		<scope>system</scope>
+    	<systemPath>${project.basedir}/lib/nattable/org.eclipse.nebula.widgets.nattable.extension.nebula_1.1.0.201703192131.jar</systemPath>
+	</dependency>
+	<dependency>
+		<groupId>org.eclipse.nebula.widgets.nattable.extension</groupId>
+		<artifactId>org.eclipse.nebula.widgets.nattable.core.extension.poi</artifactId>
+		<scope>system</scope>
+    	<systemPath>${project.basedir}/lib/nattable/org.eclipse.nebula.widgets.nattable.extension.poi_1.5.0.201703192131.jar</systemPath>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/commons-codec/commons-codec -->
+	<dependency>
+    	<groupId>commons-codec</groupId>
+    	<artifactId>commons-codec</artifactId>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
+	<dependency>
+    	<groupId>org.apache.poi</groupId>
+    	<artifactId>poi</artifactId>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/commons-logging/commons-logging -->
+	<dependency>
+	    <groupId>commons-logging</groupId>
+	    <artifactId>commons-logging</artifactId>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.eclipse.core/org.eclipse.core.commands -->
+<dependency>
+    <groupId>org.eclipse.core</groupId>
+    <artifactId>org.eclipse.core.commands</artifactId>
+</dependency>
+	
+	<dependency>
+		<groupId>org.eclipse.nebula.widgets</groupId>
+		<artifactId>org.eclipse.nebula.richtext</artifactId>
+		<scope>system</scope>
+    	<systemPath>${project.basedir}/lib/nattable/org.eclipse.nebula.widgets.richtext_1.2.0.201703081533.jar</systemPath>
+	</dependency>
+	<dependency>
+		<groupId>org.eclipse.nebula.widgets</groupId>
+		<artifactId>org.eclipse.nebula.cdatetime</artifactId>
+		<scope>system</scope>
+    	<systemPath>${project.basedir}/lib/nattable/org.eclipse.nebula.widgets.cdatetime_1.0.0.201703081533.jar</systemPath>
+	</dependency>
+	<dependency>
+		<groupId>org.eclipse.swt</groupId>
+		<artifactId>org.eclipse.swt</artifactId>
+		<scope>system</scope>
+		<version>4.6.3</version>
+    	<systemPath>${project.basedir}/lib/swt.jar</systemPath>
+	</dependency>
+	<dependency>
+		<groupId>org.eclipse.swt</groupId>
+		<artifactId>org.eclipse.swt.swing2swt</artifactId>
+		<scope>system</scope>
+		<version>4.6.3</version>
+    	<systemPath>${project.basedir}/swing2swt.jar</systemPath>
+	</dependency>
+
+	<dependency>
+		<groupId>org.eclipse.equinox</groupId>
+		<artifactId>org.eclipse.equinox.common</artifactId>
+	</dependency>
   </dependencies>
   <dependencyManagement>
   	<dependencies>
@@ -72,6 +171,104 @@
   			<groupId>org.eclipse</groupId>
   			<artifactId>jface</artifactId>
   			<version>3.5.2</version>
+  		</dependency>
+  		<dependency>
+  			<groupId>org.eclipse.core</groupId>
+  			<artifactId>org.eclipse.core.runtime</artifactId>
+  			<version>3.7.0</version>
+  		</dependency>
+  		<dependency>
+  			<groupId>org.eclipse.nebula.widgets</groupId>
+  			<artifactId>richtext</artifactId>
+  			<version>1.2.0</version>
+  		</dependency>
+  		<dependency>
+  			<groupId>ca.odell</groupId>
+  			<artifactId>ca.odell.glazedlists</artifactId>
+  			<version>1.9.0</version>
+  		</dependency>
+  		<dependency>
+  			<groupId>org.eclipse.nebula</groupId>
+  			<artifactId>org.eclipse.nebula.cwt</artifactId>
+  			<version>1.9.0</version>
+  		</dependency>
+  		<dependency>
+  			<groupId>org.eclipse.nebula.widgets.nattable</groupId>
+  			<artifactId>
+  				org.eclipse.nebula.widgets.nattable.core
+  			</artifactId>
+  			<version>1.5.0</version>
+  		</dependency>
+  		<dependency>
+  			<groupId>
+  				org.eclipse.nebula.widgets.nattable.extension
+  			</groupId>
+  			<artifactId>
+  				org.eclipse.nebula.widgets.nattable.core.extension.e4
+  			</artifactId>
+  			<version>1.5.0</version>
+  		</dependency>
+  		<dependency>
+  			<groupId>
+  				org.eclipse.nebula.widgets.nattable.extension
+  			</groupId>
+  			<artifactId>
+  				org.eclipse.nebula.widgets.nattable.core.extension.glazedlits
+  			</artifactId>
+  			<version>1.5.0</version>
+  		</dependency>
+  		<dependency>
+  			<groupId>
+  				org.eclipse.nebula.widgets.nattable.extension
+  			</groupId>
+  			<artifactId>
+  				org.eclipse.nebula.widgets.nattable.core.extension.nebula
+  			</artifactId>
+  			<version>1.5.0</version>
+  		</dependency>
+  		<dependency>
+  			<groupId>
+  				org.eclipse.nebula.widgets.nattable.extension
+  			</groupId>
+  			<artifactId>
+  				org.eclipse.nebula.widgets.nattable.core.extension.poi
+  			</artifactId>
+  			<version>1.5.0</version>
+  		</dependency>
+  		<dependency>
+  			<groupId>org.eclipse.nebula.widgets</groupId>
+  			<artifactId>org.eclipse.nebula.richtext</artifactId>
+  			<version>1.2.0</version>
+  		</dependency>
+  		<dependency>
+  			<groupId>org.eclipse.nebula.widgets</groupId>
+  			<artifactId>org.eclipse.nebula.cdatetime</artifactId>
+  			<version>1.0.0</version>
+  		</dependency>
+  		<dependency>
+  			<groupId>commons-codec</groupId>
+  			<artifactId>commons-codec</artifactId>
+  			<version>1.10</version>
+  		</dependency>
+  		<dependency>
+  			<groupId>org.apache.poi</groupId>
+  			<artifactId>poi</artifactId>
+  			<version>3.16</version>
+  		</dependency>
+  		<dependency>
+  			<groupId>commons-logging</groupId>
+  			<artifactId>commons-logging</artifactId>
+  			<version>1.1.1</version>
+  		</dependency>
+  		<dependency>
+  			<groupId>org.eclipse.equinox</groupId>
+  			<artifactId>org.eclipse.equinox.common</artifactId>
+  			<version>3.6.0</version>
+  		</dependency>
+  		<dependency>
+  			<groupId>org.eclipse.core</groupId>
+  			<artifactId>org.eclipse.core.commands</artifactId>
+  			<version>3.6.0</version>
   		</dependency>
   	</dependencies>
   </dependencyManagement>
