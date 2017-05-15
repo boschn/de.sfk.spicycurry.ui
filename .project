@@ -3,6 +3,7 @@
 	<name>de.sfk.spicycurry.ui</name>
 	<comment></comment>
 	<projects>
+		<project>de.sfk.spicycurry.backend</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
@@ -20,4 +21,11 @@
 		<nature>org.eclipse.m2e.core.maven2Nature</nature>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>lib/swt.jar</name>
+			<type>1</type>
+			<location>C:/Users/boris/OneDrive/sfk engineering/projekte/ASpicyCurry/de.sfk.spicycurry.ui/lib/swt.jar</location>
+		</link>
+	</linkedResources>
 </projectDescription>
